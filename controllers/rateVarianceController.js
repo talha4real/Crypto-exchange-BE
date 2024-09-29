@@ -1,5 +1,9 @@
 const RateVariance = require('../models/rate');
 
+
+//const latestVariance = await RateVariance.findOne().sort({ createdAt: -1 });
+
+
 // Endpoint to save rate variance
 const saveRateVariance = async (req, res) => {
     const { rateVariance } = req.body;
