@@ -57,3 +57,25 @@ This is the backend API for the **Crypto Exchange App** that provides exchange r
    ```
 
 The server will be running on http://localhost:3000.
+
+## Folder Structure
+The project directory is structured as follows:
+```
+cryptoexchange-be/
+controllers/
+├── authController.js
+├── currencyController.js
+└── rateVarianceController.js
+models/
+├── currency.js
+└── rate.js
+routes/
+├── authRoutes.js
+├── currencyRoutes.js
+└── rateVarianceRoutes.js
+.env
+.gitignore
+package-lock.json
+package.json
+server.js
+```
